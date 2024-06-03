@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Barberia.SERVICE
 {
-    internal class Turno
+    public class Turno
     {
-    }
+        public int NumeroTurno { get; set; }
+        public int DniCliente { get; set; }
+        public DateTime Fecha { get; set; }  
+        public string TipoTrabajo { get; set; }    
+        public int Importe { get; set; }    
+             
+        }
 }
+

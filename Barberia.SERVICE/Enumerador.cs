@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Barberia.SERVICE
 {
-    internal class Enumerador
+    public class Enumerador
     {
+     public enum TipoTrabajo {corte =1 , barba, tintura }
     }
 }
